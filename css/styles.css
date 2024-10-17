@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a[href^="https://reactbricks.com?utm_campaign=site-badge"]
+{
+  visibility: hidden;
+}
